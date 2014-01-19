@@ -1,7 +1,7 @@
 Content Provider for WIMM News Reader
 =============
 
-Android allows applications to share data across applications using [content providers][providers]. In our [News Reader application][androidsx-wimm] for [WIMM][wimm] we provide a read-only content provider so that you can access the feeds and items into your application.
+Android allows applications to share data across applications using [content providers][providers]. In our [News Reader application][androidsx-wimm] for [WIMM][wimm] we provide a read-only content provider so that you can access the feeds and items into your application ([source code for the News Reader](https://github.com/androidsx/micro-rss)).
 
 This repository includes a class that will help you access the content providers with constants with its URI, columns, etc.
 
